@@ -1,4 +1,4 @@
-<h3 align="center">LLM Playground Front-End</h3>
+<h3 align="center">Shinyproxy Generative AI meadow</h3>
 
 <div align="center">
 
@@ -14,7 +14,7 @@
 </p>
 
 ```
-git clone https://github.com/LilianDK/llm-playground.git
+git clone https://github.com/LilianDK/shinyproxy_generative_ai_meadow.git
 ```
 
 ```
