@@ -1,0 +1,16 @@
+version: "3"
+services:
+  aa_playground:
+    image: openanalytics/shinyproxy
+    user: 0:0
+    volumes:
+       - /var/run/docker.sock:/var/run/docker.sock
+       - ./application.yml:/opt/shinyproxy/application.yml
+       - ./shinyproxy.log:/opt/shinyproxy/shinyproxy.log
+    #  - ${OUTPUT_DIRECTORY}:/output
+    ports:
+      - 8080:8080
+
+networks: 
+  default:  
+    name: shinyproxy     
