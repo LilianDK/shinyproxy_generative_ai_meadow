@@ -21,6 +21,7 @@ git clone https://github.com/LilianDK/shinyproxy_generative_ai_meadow.git
 docker compose -f docker-compose-shinyproxy.yml up
 ```
 Enter in browser: localhost:8080
+![grafik](https://github.com/LilianDK/shinyproxy_generative_ai_meadow/assets/13328959/0280c552-f1b6-4f2a-a5b0-bb6b6eb10c20)
 
 users:
     - name: admin
