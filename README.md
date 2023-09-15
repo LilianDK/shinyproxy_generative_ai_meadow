@@ -20,3 +20,4 @@ git clone https://github.com/LilianDK/shinyproxy_generative_ai_meadow.git
 ```
 docker compose -f docker-compose-shinyproxy.yml up
 ```
+Enter in browser: localhost:8080
